@@ -11,7 +11,7 @@ public class CtoF {
 
         do {
 
-            System.out.print("Please enter the temperature in celsius to convert to fahrenheit: ");
+            System.out.print("Enter the temperature in celsius to convert to fahrenheit: ");
 
             if (in.hasNextDouble()) {
 
@@ -23,7 +23,7 @@ public class CtoF {
 
             } else {
                 trash = in.nextLine();
-                System.out.println("Please enter a numerical value, not " + trash);
+                System.out.println("Enter a numerical value, not " + trash);
             }
 
         } while (!done);
